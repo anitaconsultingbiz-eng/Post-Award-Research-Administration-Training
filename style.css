@@ -2321,7 +2321,8 @@ h3 {
   color: #dbeafe;
 }
 
-.home-program-path {
+.home-program-path,
+.home-training-path {
   background: #ffffff;
 }
 
@@ -3168,7 +3169,11 @@ nav a:hover {
 
 .hero,
 .page-hero {
-  background: linear-gradient(135deg, var(--color-pale-sage), var(--color-cream));
+  background: linear-gradient(
+    135deg,
+    var(--color-pale-sage),
+    var(--color-cream)
+  );
 }
 
 .home-hero,
@@ -3232,15 +3237,20 @@ nav a:hover {
 
 .story-section,
 .home-program-path,
+.home-training-path,
 .year-path-section {
-  background: #ffffff;
+  background: var(--site-bg);
 }
 
 .home-self-paced,
 .year-briefing-transition,
 .capstone-page .capstone-transition {
   background:
-    linear-gradient(135deg, rgba(204, 214, 173, 0.5), rgba(251, 239, 205, 0.75)),
+    linear-gradient(
+      135deg,
+      rgba(204, 214, 173, 0.5),
+      rgba(251, 239, 205, 0.75)
+    ),
     var(--color-cream);
 }
 
@@ -3635,7 +3645,11 @@ nav a:hover {
 .hero,
 .page-hero {
   background:
-    linear-gradient(135deg, rgba(232, 237, 218, 0.95), rgba(255, 250, 240, 0.98)),
+    linear-gradient(
+      135deg,
+      rgba(232, 237, 218, 0.95),
+      rgba(255, 250, 240, 0.98)
+    ),
     var(--site-bg);
 }
 
@@ -3717,7 +3731,11 @@ nav a:hover {
 .year-briefing-transition,
 .capstone-page .capstone-transition {
   background:
-    linear-gradient(135deg, rgba(232, 237, 218, 0.7), rgba(246, 235, 207, 0.65)),
+    linear-gradient(
+      135deg,
+      rgba(232, 237, 218, 0.7),
+      rgba(246, 235, 207, 0.65)
+    ),
     var(--site-bg);
 }
 
@@ -4028,8 +4046,16 @@ nav a:hover {
 
 .capstone-page {
   background:
-    radial-gradient(circle at top left, rgba(204, 214, 173, 0.28), transparent 34rem),
-    radial-gradient(circle at top right, rgba(210, 160, 111, 0.16), transparent 32rem),
+    radial-gradient(
+      circle at top left,
+      rgba(204, 214, 173, 0.28),
+      transparent 34rem
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(210, 160, 111, 0.16),
+      transparent 32rem
+    ),
     #fbfaf5;
 }
 
@@ -4201,7 +4227,11 @@ nav a:hover {
 
 .capstone-page .story-slide-image {
   background:
-    linear-gradient(135deg, rgba(204, 214, 173, 0.45), rgba(246, 235, 207, 0.65)),
+    linear-gradient(
+      135deg,
+      rgba(204, 214, 173, 0.45),
+      rgba(246, 235, 207, 0.65)
+    ),
     #f1f4e6;
 }
 
@@ -4293,7 +4323,11 @@ nav a:hover {
 
 .capstone-page .capstone-transition {
   background:
-    linear-gradient(135deg, rgba(204, 214, 173, 0.45), rgba(246, 235, 207, 0.5)),
+    linear-gradient(
+      135deg,
+      rgba(204, 214, 173, 0.45),
+      rgba(246, 235, 207, 0.5)
+    ),
     #fbfaf5;
 }
 
@@ -4516,7 +4550,11 @@ nav a:hover {
 /* Transition card */
 .year-overview-page .year-briefing-transition {
   background:
-    linear-gradient(135deg, rgba(204, 214, 173, 0.38), rgba(246, 235, 207, 0.45)),
+    linear-gradient(
+      135deg,
+      rgba(204, 214, 173, 0.38),
+      rgba(246, 235, 207, 0.45)
+    ),
     #fbfaf5;
 }
 
