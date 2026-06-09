@@ -117,3 +117,34 @@ quizButtons.forEach((button) => {
     });
   });
 })();
+
+
+/* ======================================================
+  RESOURCE LIBRARY PAGE
+====================================================== */
+
+const previewButtons = document.querySelectorAll(".preview-btn");
+const imageModal = document.querySelector("#imageModal");
+const modalImage = document.querySelector("#modalImage");
+const modalClose = document.querySelector("#modalClose");
+
+previewButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const imagePath = button.dataset.image;
+    modalImage.src = imagePath;
+    modalImage.alt = button.closest(".resource-card").querySelector("h3").textContent;
+    imageModal.classList.add("active");
+  });
+});
+
+modalClose.addEventListener("click", () => {
+  imageModal.classList.remove("active");
+  modalImage.src = "";
+});
+
+imageModal.addEventListener("click", (event) => {
+  if (event.target === imageModal) {
+    imageModal.classList.remove("active");
+    modalImage.src = "";
+  }
+});
