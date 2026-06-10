@@ -4874,3 +4874,7 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.resources-page p {
+  margin-bottom: 1rem;
+}
